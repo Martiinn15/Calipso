@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado"
+    tools:context=".SeleccionPostreArg">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Chocotorta"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Ingredientes"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="2 paquetes de galletas de chocolate Chocolinas, 600 gr de crema de queso mascarpone, 600 gr de dulce de leche, 2 cucharadas de café soluble, 200 ml. de agua caliente, 100 gr de chocolate para decorar"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="213dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="28dp"
+        android:text="Receta paso a paso"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="En un bol batimos juntos, el queso y el dulce de leche hasta conseguir una crema lisa y homogénea, preparamos el café, echamos el café en un cuenco y bañamos en él las galletas, durante 3 ó 4 segundos, vamos colocando las galletas formando una base. A continuación, extendemos la mezcla de queso y dulce de leche que teníamos reservada, creando una capa y cubrimos de nuevo con otra capa de galletas, terminando la tarta con una capa de crema de queso con dulce de leche. Reservamos en la nevera al menos 12 horas antes de consumirla y habremos terminado"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/volver"
+        android:layout_width="55dp"
+        android:layout_height="54dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/volverflecha" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

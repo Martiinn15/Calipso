@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado"
+    tools:context=".SeleccionPostreArg">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="Suspiro de limeña"
+        android:textColor="@color/black"
+        android:textSize="28sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="Ingredientes"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Azúcar granulado 200 gr, canela molida, 4 huevos, leche evaporada 300 ml, leche condensada azucarada 300 ml, vino oporto 125 gr"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Receta"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Calentar la leche condensada y la leche evaporada en una cacerola a fuego medio, revolviendo muy a menudo, verter unos 125 ml de la leche en un bol y enfriar, añadir las yemas de huevo a la leche fría batiendo, verter la leche caliente sobre las yemas, sin dejar de batir. Volver a poner la mezcla en la cacerola y calentarla, batiendo constantemente, hasta que espese, durante aproximadamente un minuto, servir el manjar blanco en vasos individuales, enfriar mientras se prepara el merengue. Tener preparadas las claras de huevo en un bol o batidora de pie y batirlas solo hasta que empiecen a espumar, levar el azúcar y el oporto a ebullición a fuego alto y hervir hasta que alcance los 115º C en un termómetro para caramelo. Volver a batir las claras, vertiendo con mucho cuidado el almíbar caliente sobre ellas, eguir batiendo hasta que el merengue se enfríe, colocar el merengue con una cuchara o con una manga sobre el manjar blanco frío. Espolvorear cada postre con un poco de canela y enfriar hasta el momento de servir."
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <ImageView
+        android:id="@+id/volver3"
+        android:layout_width="55dp"
+        android:layout_height="54dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/volverflecha" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VistaPrincipal</string>
+    <string name="imArg">Argentina</string>
+    <string name="imPeru">Peru</string>
+    <string name="imVolver">Volver</string>
+    <string name="imPicaron">Picaron</string>
+    <string name="imSuspiro">Suspiro</string>
+</resources>
